@@ -1,0 +1,88 @@
+.container p{
+    text-align:center;
+    font-family:Courier New;
+}
+p{
+    /* text-align:right; */
+    /* text-align:left; */
+    text-align:center;
+    font-family:georgia;
+}
+/* font type list how to css apply */
+li:nth-child(1){
+    font-family:serif;
+}  
+li:nth-child(2){
+    font-family:sans-serif; 
+}
+li:nth-child(3){
+    font-family:monospace; 
+}
+li:nth-child(4){ 
+    font-family:cursive; 
+}
+li:nth-child(5){
+    font-family:fantasy;
+}
+/* how apply css to font under div */
+div h1{
+    background-color:black;
+    color:white;
+    width:200px;
+    padding:5px;
+}
+.serif{
+    font-family:serif;
+}
+.sans-serif{
+    font-family:sans-serif;
+}
+.monospace{
+    font-family:monospace;
+}
+.cursive{
+    font-family:cursive;
+}
+.fantasy{
+    font-family:fantasy;
+}
+/* make a box on on text */
+.box{
+    width:200px;
+    height:100px;
+    font-weight:bold ;
+    font-size:16px;
+    text-align:center;
+    margin:20px;
+}
+/* boder banaya hai text par */
+.dotted{
+    border:10px dotted darkcyan;
+}
+.dashed{
+    border:10px dashed darkcyan;
+}
+.solid{
+    border:10px solid  darkcyan;
+}
+.double{
+    border:10px double rgb(11, 74, 74);
+}
+.groove{
+    border:10px groove darkcyan;
+}
+.ridge{
+    border:10px ridge darkcyan;
+}
+.inset{
+    border:10px inset darkcyan;
+}
+.outset{
+    border:10px outset darkcyan;
+}
+.lighter{
+    font-weight:lighter;
+    font-size:40px;
+    color:red;
+    font-style:italic;
+}

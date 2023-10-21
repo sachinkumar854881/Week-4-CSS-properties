@@ -1,0 +1,26 @@
+div{    
+    width:200px;
+    height:200px;
+    border:2px solid red;
+    margin:20px;
+}
+.bg1{
+    background-image:url('https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg');
+    background-size:auto;
+}
+.bg2{
+    background-image:url('https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg');
+    background-size:100px 100px;   
+}
+.bg3{
+    background-image:url('https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg');
+    background-size:cover;
+}
+.bg4{
+    background-image:url('https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg');
+    background-size:contain;
+}
+.bg5{
+    background-image:url('https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg');
+    background-size:100% 100%;
+}
